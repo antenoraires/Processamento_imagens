@@ -1,0 +1,30 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Ambiente virtual
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos do Poetry
+poetry.lock
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Outros arquivos
+*.log
+*.pot
+*.py[cod]
+*.egg-info/
+dist/
+build/
