@@ -9,6 +9,6 @@ print(config['img'])
 #for img in config['img'].keys():
 #	data_img = control.read_img(img)
 
-data = control.read_img(config['img']['img1'])
+data = control.read_img(config['img']['img2'])
 train = control.train_model(data)
-control.predict_model(train, config['img']['img3)
+control.predict_model(train, config['img']['img2'])
