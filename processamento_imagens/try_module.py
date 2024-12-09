@@ -6,7 +6,9 @@ with open('processamento_imagens/assents/config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 print(config['img'])
 
-for img in config['img'].keys():
-	data_img = control.read_img(img)
+#for img in config['img'].keys():
+#	data_img = control.read_img(img)
 
 data = control.read_img(config['img']['img1'])
+train = control.train_model(data)
+control.predict_model(train, config['img']['img3)
